@@ -1,0 +1,22 @@
+@media (max-width: 575.98px) {
+    .preview {
+        padding: 105px 0 50px;
+        text-align: center;
+        &::after {
+            width: 237px;
+            height: 237px;
+            top: -12%;
+            left: -6%;
+        }
+        &__title {
+            font-size: 25px;
+            max-width: 275px;
+            margin: 0 auto 16px;
+        }
+        &__image {
+            width: 90%;
+            position: inherit;
+            margin-bottom: 11px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.popup {
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    max-width: 670px;
+    background: radial-gradient(42.84% 203.07% at 15.58% -40.39%, #323E51 0%, #1D2532 100%);
+    border-radius: 30px;
+    padding: 56px 90px 90px 70px;
+    transition: opacity .5s ease, visibility .5s ease;
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 470px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 105%;
+        letter-spacing: -0.03em;
+        margin-bottom: 25px;
+    }
+    &__info {
+        font-size: 21px;
+        line-height: 120%;
+        margin-bottom: 35px;
+    }
+}

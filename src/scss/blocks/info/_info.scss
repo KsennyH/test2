@@ -1,0 +1,25 @@
+.info {
+    &__title {
+        font-family: 'Inter';
+        font-size: 72px;
+        line-height: 105%;
+        letter-spacing: -0.03em;
+        margin-bottom: 20px;
+        max-width: 720px;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__text {
+        font-family: 'Inter';
+        font-size: 23px;
+        line-height: 120%;
+        color: #CECECE;
+        margin-bottom: 67px;
+        max-width: 500px;
+        p + p {
+            margin-top: 10px;
+        }
+    }
+}
+

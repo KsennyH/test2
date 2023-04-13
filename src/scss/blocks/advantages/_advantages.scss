@@ -1,0 +1,72 @@
+.advantages {
+    text-align: center;
+    background: linear-gradient(212.69deg, #323E51 4.9%, #1D2532 55.16%);
+    border-radius: 20px;
+    padding: 130px 0 150px;
+    position: relative;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 440px;
+        height: 440px;
+        border-radius: 50%;
+        background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+        filter: blur(86px);
+        transform: rotate(11.97deg);
+    }
+    &::after {
+        top: 0;
+        right: 0;
+    }
+    &::before {
+        left: 0;
+        bottom: 0;
+    }
+    &__wrapper {
+        position: relative;
+        z-index: 20;
+        padding: 0 30px;
+    }
+    &__title {
+        margin-bottom: 65px;
+    }
+    &__cards {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    &__sircle-left {
+        position: absolute;
+        display: block;
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+        background: radial-gradient(63.25% 73.53% at 65.32% 77.65%, #045DFA 0%, #0FC1D7 83.16%, #06F6C7 100%);
+        transform: rotate(7.77deg);
+        top: 11%;
+        left: 10%;
+    }
+    &__sircle-top {
+        position: absolute;
+        display: block;
+        width: 152px;
+        height: 152px;
+        border-radius: 50%;
+        background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+        transform: rotate(-25.73deg);
+        top: -8%;
+        right: 10%;
+    }
+    &__sircle-bottom {
+        position: absolute;
+        display: block;
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+        background: radial-gradient(95.38% 95.38% at 50.77% 4.62%, #DEA8FF 0%, #9D6AD9 44.51%, #7A2BF6 100%);
+        filter: blur(12px);
+        transform: rotate(-25.73deg);
+        right: 12%;
+        bottom: 7%;
+    }
+}

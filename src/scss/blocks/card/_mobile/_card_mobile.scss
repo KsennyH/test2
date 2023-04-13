@@ -1,0 +1,13 @@
+@media (max-width: 575.98px) {
+    .card {
+        min-height: 273px;
+        &__info {
+            font-size: 16px;
+        }
+        &__img {
+            img {
+                width: 83px;
+            }
+        }
+    }
+}

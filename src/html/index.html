@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Test2</title>
+</head>
+<body class="page">
+    <div class="page__wrapper">
+        <header class="page__header header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__logo logo">
+                        <a href="/" class="logo__link">
+                            <img src="@img/logo.svg" alt="Логотип">
+                        </a>
+                    </div>
+                    <ul class="nav__menu nav-list">
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Главная</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Что даст обучение</a>
+                        </li>
+                    </ul>
+                    <a class="nav__login login js-login" href="#">Личный кабинет</a>
+                    <button type="button" class="mobile-button">
+                        <span class="mobile-button__icon"></span>
+                    </button>
+                </nav>
+                <div class="header__mobile">
+                    <nav class="mobile-nav">
+                        <div class="mobile-nav__logo logo">
+                            <a href="/" class="logo__link">
+                                <img src="@img/logo.svg" alt="Логотип">
+                            </a>
+                        </div>
+                        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__item">
+                                <a href="#" class="mobile-nav__link mobile-nav__link_active">Главная</a>
+                            </li>
+                            <li class="mobile-nav__item">
+                                <a href="#" class="mobile-nav__link">Что даст обучение</a>
+                            </li>
+                        </ul>
+                        <a class="mobile-nav__login login js-login" href="#">Личный кабинет</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="preview">
+            <div class="container preview__container">
+                <h1 class="preview__title">Не упусти возможность войти в <span>прибыльную нишу</span></h1>
+                <div class="info">
+                    <div class="info__text">
+                        <p>Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
+                    </div>
+                    <a class="btn" href="#">Начать зарабатывать на NFT</a>
+                </div>
+                <div class="preview__image image">
+                    <img src="@img/man1.png" alt="Довольный мужик с мешком денег">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="education">
+        <div class="container container_mobile">
+            <section class="advantages">
+                <div class="advantages__wrapper">
+                    <h2 class="advantages__title title">Что даст тебе обучение?</h2>
+                    <ul class="advantages__cards cards">
+                        <li class="cards__item card">
+                            <div class="card__img">
+                                <img src="@img/1.png" alt="">
+                            </div>
+                            <div class="card__info">
+                                <p>Откроешь свой первый криптокошелек и научишься с ним работать</p>
+                            </div>
+                            <div class="card__background"></div>
+                        </li>
+                        <li class="cards__item card">
+                            <div class="card__img">
+                                <img src="@img/2.png" alt="">
+                            </div>
+                            <div class="card__info">
+                                <p>Поймёшь, как выбирать правильные дропы</p>
+                            </div>
+                            <div class="card__background"></div>
+                        </li>
+                        <li class="cards__item card">
+                            <div class="card__img">
+                                <img src="@img/3.png" alt="">
+                            </div>
+                            <div class="card__info">
+                                <p>Построишь план по быстрому приумножению заработанных средств</p>
+                            </div>
+                            <div class="card__background"></div>
+                        </li>
+                        <li class="cards__item card">
+                            <div class="card__img">
+                                <img src="@img/4.png" alt="">
+                            </div>
+                            <div class="card__info">
+                                <p>Узнаешь кто такие холдеры и флипперы</p>
+                            </div>
+                            <div class="card__background"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="advantages__sircle-left"></div>
+                <div class="advantages__sircle-top"></div>
+                <div class="advantages__sircle-bottom"></div>
+            </section>
+        </div>
+    </div>
+    <div class="popup-wrapper">
+        <div class="popup-wrapper__login popup">
+            <button type="button" class="close">
+                <span class="close__icon"></span>
+            </button>
+            <div class="popup__wrapper">
+                <h3 class="popup__title">Начни прямо сейчас!</h3>
+                <div class="popup__info">
+                    <p>Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
+                </div>
+                <form class="popup-form" action="/">
+                    <input class="popup-form__input input" type="email" placeholder="Ваш email">
+                    <button class="popup-form__btn btn btn_size-small" type="submit">Оплатить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

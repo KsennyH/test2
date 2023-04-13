@@ -1,0 +1,42 @@
+.preview {
+    background-color: #1D2532;
+    padding: 300px 0 135px;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 415px;
+        height: 415px;
+        border-radius: 50%;
+        background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.35) 25.59%, rgba(255, 14, 222, 0.35) 100.44%);
+        filter: blur(86px);
+        transform: rotate(11.97deg);
+        top: -10%;
+        left: 0;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    &__title {
+        font-family: 'Inter';
+        font-size: 72px;
+        line-height: 105%;
+        letter-spacing: .03em;
+        margin-bottom: 20px;
+        max-width: 770px;
+        position: relative;
+        z-index: 4;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__image {
+        position: absolute;
+        max-width: 800px;
+        top: -25%;
+        right: -5%;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,28 @@
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    font-family: 'Inter';
+    font-size: 23px;
+    color: #CECECE;
+    background-color: #293344;
+    border-radius: 0px 0px 0px 30px;
+    width: 100%;
+    height: auto;
+    left: 16px;
+    right: 0;
+    top: -100%;
+    overflow: auto;
+    z-index: 10;
+    transition: top .5s ease;
+    padding: 20px 20px 60px;
+    &__logo {
+        margin-bottom: 50px;
+    }
+    &__list {
+        margin-bottom: 90px;
+    }
+    &__login {
+        width: 175px;
+    }
+}

@@ -1,0 +1,47 @@
+@import './base/vars';
+@import './base/font';
+@import './base/base';
+@import './base/reset';
+
+
+@import './blocks/preview/preview';
+@import './blocks/info/info';
+@import './blocks/btn/btn';
+@import './blocks/image/image';
+@import './blocks/header/header';
+@import './blocks/page/page';
+@import './blocks/login/login';
+@import './blocks/nav-list/nav-list';
+@import './blocks/nav/nav';
+@import './blocks/education/education';
+@import './blocks/advantages/advantages';
+@import './blocks/title/title';
+@import './blocks/cards/cards';
+@import './blocks/card/card';
+@import './blocks/mobile-button/mobile-button';
+@import './blocks/mobile-button/__icon/mobile-button__icon';
+@import './blocks/mobile-nav/mobile-nav';
+@import './blocks/mobile-nav/__link/mobile-nav__link';
+@import './blocks/mobile-nav/_active/mobile-nav_active';
+@import './blocks/mobile-nav/__item/mobile-nav__item';
+@import './blocks/popup/popup';
+@import './blocks/input/input';
+@import './blocks/popup-form/popup-form';
+@import './blocks/btn/_btn_size/btn_size-small';
+@import './blocks/close/close';
+@import './blocks/popup-wrapper/popup-wrapper';
+
+@import './blocks/info/_mobile/info_mobile';
+@import './blocks/preview/_mobile/preview_mobile';
+@import './blocks/btn/_mobile/btn_mobile';
+@import './blocks/title/_mobile/title_mobile';
+@import './blocks/advantages/_mobile/advantages_mobile';
+@import './blocks/card/_mobile/card_mobile';
+@import './blocks/education/_mobile/education_mobile';
+@import './blocks/logo/_mobile/logo_mobile';
+@import './blocks/header/_mobile/header_mobile';
+@import './blocks/mobile-button/_mobile/mobile-button_mobile';
+@import './blocks/mobile-button/__icon/_active/mobile-button__icon_active';
+@import './blocks/nav/_mobile/nav_mobile';
+@import './blocks/popup/_mobile/popup_mobile';
+@import './blocks/close/_mobile/close_mobile';

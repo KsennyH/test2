@@ -1,0 +1,10 @@
+@media (max-width: 575.98px) {
+    .info {
+        order: 1;
+        &__text {
+            font-size: 18px;
+            max-width: 222px;
+            margin: 0 auto 40px;
+        }
+    }
+}

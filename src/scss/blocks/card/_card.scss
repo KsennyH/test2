@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    z-index: 4;
+    min-height: 310px;
+    background: rgba(51, 62, 81, 0.7);
+    border-radius: 20px;
+    padding: 45px 19px;
+    &__img {
+        margin-bottom: 23px;
+    }
+    &__info {
+        font-family: 'Inter';
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: -0.7px;
+        color: #FFFFFF;
+        p + p {
+            margin-top: 10px;
+        }
+    }
+    &__background {
+        width: 84%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: -20px;
+        height: 20px;
+        border-radius: 0 0 20px 20px;
+        background: rgba(51, 62, 81, 0.6);
+        position: absolute;
+        z-index: -1;
+    }
+}

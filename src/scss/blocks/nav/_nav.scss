@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        margin-left: auto;
+    }
+    &__login {
+        margin-left: 140px;
+    }
+}

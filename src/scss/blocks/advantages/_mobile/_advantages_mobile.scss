@@ -1,0 +1,33 @@
+@media (max-width: 575.98px) {
+    .advantages {
+        padding: 40px 0 120px;
+        &::before {
+            display: none;
+        }
+        &::after {
+            width: 137px;
+            height: 137px;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__sircle-left {
+            width: 22px;
+            height: 22px;
+            top: 5%;
+            left: 4%;
+        }
+        &__sircle-top {
+            width: 88px;
+            height: 88px;
+            top: -4%;
+            right: -10%;
+        }
+        &__sircle-bottom {
+            width: 63px;
+            height: 63px;
+            right: 6%;
+            bottom: 1%;
+        }
+    }
+}

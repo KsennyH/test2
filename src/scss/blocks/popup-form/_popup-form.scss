@@ -1,0 +1,11 @@
+.popup-form {
+    &__input {
+        margin-bottom: 18px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__btn {
+        width: 100%;
+    }
+}

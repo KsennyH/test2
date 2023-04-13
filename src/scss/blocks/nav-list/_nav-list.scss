@@ -1,0 +1,16 @@
+.nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 85px;
+    font-family: 'Inter';
+    font-size: 23px;
+    line-height: 120%;
+    color: #CECECE;
+    &__link {
+        transition: color .5s ease;
+        padding: 11px 10px;
+        &:hover {
+            color: #C3F33B;
+        }
+    }
+}

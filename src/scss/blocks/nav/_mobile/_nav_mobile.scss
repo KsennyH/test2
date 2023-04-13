@@ -1,0 +1,10 @@
+@media (max-width: 575.98px) {
+    .nav {
+        &__menu {
+            display: none;
+        }
+        &__login {
+            display: none;
+        }
+    }
+}

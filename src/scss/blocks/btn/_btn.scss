@@ -1,0 +1,24 @@
+.btn {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #1D2532;
+    background: linear-gradient(92.84deg, #1DD844 1.44%, #CBF62E 126.29%);
+    box-shadow: 0px 0px 10px 1px #25d44b;
+    border-radius: 20px;
+    padding: 20px 30px;
+    transition: box-shadow .5s ease;
+    &.disabled {
+        color: rgba(36, 36, 36, 0.5);
+        box-shadow: none;
+    }
+    &:hover,
+    &:focus {
+        box-shadow: 0px 0px 20px 5px #25d44b;
+    }
+    &:active {
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

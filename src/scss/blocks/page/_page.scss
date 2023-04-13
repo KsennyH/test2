@@ -1,0 +1,10 @@
+.page {
+    &__wrapper {
+        position: relative;
+    }
+    &__header {
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+    }
+}

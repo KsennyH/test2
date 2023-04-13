@@ -1,0 +1,20 @@
+.login {
+    min-width: 175px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 16px 20px;
+    transition: color .5s ease, border .5s ease;
+    &:hover,
+    &:focus {
+        color: #C3F33B;
+        border: 1px solid #C3F33B;
+    }
+    &:active {
+        background: rgba(224, 255, 172, 0.05);
+    }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body {
+    height: 100%; 
+    overflow-x: hidden;  
+}
+
+body {
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400; 
+    line-height: 1;
+    color: $defaultText;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1314px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container_mobile {
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
